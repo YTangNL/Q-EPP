@@ -1,10 +1,41 @@
 # Individual Patient Data (IPD)
 
-
 ## Kaplan-Meier reconstruction coordinate extraction tables
 
 
 ## Kaplan-Meier reconstruction life table
+
+## Estimate Constant Hazard 
+### Revascularization
+<img width="1540" height="951" alt="image" src="https://github.com/user-attachments/assets/96fc4849-0632-4806-bc56-81b0364bb0f1" />
+> h1_stat
+  arm    t_ipd event_ipd        rate
+1   0 344620.9       961 0.002788571
+2   1 349460.7       757 0.002166195
+### Mycardiol Infarction
+<img width="1540" height="951" alt="image" src="https://github.com/user-attachments/assets/f5d5f97e-9d42-4853-bd27-c69ca84bcf02" />
+> h2_stat
+  arm    t_ipd event_ipd        rate
+1   0 350370.2       639 0.001823785
+2   1 352974.3       465 0.001317376
+### Hospitalized Angina
+<img width="1540" height="951" alt="image" src="https://github.com/user-attachments/assets/f87af89d-1d1c-4650-b18e-1a6a74f8cf86" />
+> h3_stat
+  arm    t_ipd event_ipd         rate
+1   0 357532.9       241 0.0006740638
+2   1 358508.9       239 0.0006666502
+### Stroke
+<img width="1540" height="951" alt="image" src="https://github.com/user-attachments/assets/830dedf1-38bd-4cc4-836d-7d7cb46aa560" />
+> h4_stat
+  arm    t_ipd event_ipd         rate
+1   0 355959.1       262 0.0007360396
+2   1 356221.4       205 0.0005754848
+### Cardiovascular Death
+<img width="1540" height="951" alt="image" src="https://github.com/user-attachments/assets/4f23c185-07b9-42f2-a207-1cd7c80491bb" />
+> h5_stat
+  arm    t_ipd event_ipd         rate
+1   0 364997.2       238 0.0006520598
+2   1 364507.7       251 0.0006885999
 
 
 # Multi-times-to-events Data
