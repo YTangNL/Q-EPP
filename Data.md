@@ -97,6 +97,7 @@ from5  0.00000  8.7816595  2.9920560  1.2925467 16.3509699  6.5827679
 from6  0.00000  0.0000000  0.0000000  0.0000000  0.0000000 36.0000000
 
 <img width="770" height="475" alt="image" src="https://github.com/user-attachments/assets/af33dfb3-1285-4cd0-a884-71d5fb618fc7" />
+
 #### Group state occupation time comparison figure
 <img width="770" height="475" alt="image" src="https://github.com/user-attachments/assets/81f2fc6a-9b86-452a-8771-2e290be638d2" />
 
@@ -104,4 +105,27 @@ from6  0.00000  0.0000000  0.0000000  0.0000000  0.0000000 36.0000000
 ## Censored longitudinal Data
 
 ## QoL weighted RMST
-### Principle 1: Markov principle
+We select interesting id to show the difference between principles, 5 from the Placebo group and 5 from the Evolocumab group
+id = 29, 39, 45, 113, 115 (placebo, arm = 0)
+id = 4, 25, 35, 99, 170 (Evolocumab, arm = 1)
+### Principle 1: Markov Principle
+Evolo: 35.22883 months | sd.: 3.41651 
+Placebo: 35.19714 months | sd.: 3.407003 
+Difference: 0.9509084 days
+
+### Principle 2: Worst-state Update Principle
+Evolo: 35.15964 months | sd.: 3.572089 
+Placebo: 35.10576 months | sd.: 3.608393 
+Difference: 1.61618 days
+
+### Principle 3: Cumulative Product Principle
+Evolo: 35.08137 months | sd.: 3.727952 
+Placebo: 34.99942 months | sd.: 3.807563 
+Difference: 2.458316 days
+
+### Principle 4: RMST (unweighted)
+Evolo: 33.88316 months | sd.: 6.826716 
+Placebo: 33.55047 months | sd.: 7.27627 
+Difference: 9.980595 days
+
+
